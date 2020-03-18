@@ -1,2 +1,0 @@
-# TSReactComponent
-Created with CodeSandbox

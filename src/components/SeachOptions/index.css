@@ -1,0 +1,93 @@
+.seachOptions {
+  text-align: left;
+}
+
+.seachOptions .seachSelected {
+  box-shadow: inset 0 -1px 0 0 #e7eaee;
+  display: flex;
+}
+.seachSelected .selectedLable {
+  width: 98px;
+  font-size: 12px;
+  color: #5c5c5c;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.seachSelected .selectedList {
+  flex: 1;
+}
+.selectedList .selectedTags {
+  display: inline-block;
+  padding: 9px 0;
+}
+.selectedTags :global(.ant-tag) {
+  background: rgba(38, 121, 244, 0.08);
+  color: #2679f4;
+  letter-spacing: 0;
+  border-radius: 11px;
+  border: none;
+}
+.selectedTags :global(.ant-tag:hover) {
+  border: 0;
+}
+.selectedTags :global(.ant-tag .anticon-close) {
+  color: #2679f4;
+}
+.selectedTags :global(.ant-tag .anticon-close:hover) {
+  color: #2679f4;
+}
+.selectedList .selectedClear {
+  display: inline-block;
+  padding: 0 8px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #5c5c5c;
+  letter-spacing: 0;
+  cursor: pointer;
+  border-radius: 11px;
+}
+.selectedList .selectedClear:hover {
+  background-color: #f5f5f5;
+}
+.selectedList .noSelected {
+  display: inline-block;
+  padding: 10px 0;
+  line-height: 20px;
+  font-size: 12px;
+  color: #adadad;
+  letter-spacing: 0;
+}
+.seachSelected .collapseBtn {
+  padding: 12px 12px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #2679f4;
+  letter-spacing: 0;
+  cursor: pointer;
+  background: url("https://gw.alicdn.com/tfs/TB177r4oBr0gK0jSZFnXXbRRXXa-24-24.svg")
+    no-repeat;
+  background-position: right center;
+  background-size: 12px 12px;
+}
+
+.seachOptions .selectOptions {
+  padding: 4px 80px 4px 0;
+  box-shadow: inset 0 -1px 0 0 #e7eaee;
+  position: relative;
+}
+.selectOptions .collapseClose {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 12px 12px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #2679f4;
+  letter-spacing: 0;
+  cursor: pointer;
+  background: url("https://gw.alicdn.com/tfs/TB13FLZoxz1gK0jSZSgXXavwpXa-24-24.svg")
+    no-repeat;
+  background-position: right center;
+  background-size: 12px 12px;
+}
